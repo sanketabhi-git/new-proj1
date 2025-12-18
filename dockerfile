@@ -1,2 +1,2 @@
-FROM httpd
-COPY *.html /usr/local/apache2/htdocs/
+FROM nginx
+COPY *.html /usr/local/nginx/html/
